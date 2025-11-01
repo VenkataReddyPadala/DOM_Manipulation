@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 35px 55px;
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+header > h1 {
+  font-weight: 400;
+  font-size: 60px;
+}
+.count {
+  margin-bottom: 30px;
+}
+
+.count > p {
+  font-weight: 300;
+  font-size: 18px;
+  color: lightgray;
+}
+
+.count > hr {
+  width: 16%;
+  margin-top: 10px;
+  color: lightgray;
+}
+.error-message {
+  display: none;
+  color: red;
+  margin-bottom: 30px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  border-radius: 0px;
+  border: 1px solid lightgray;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.buttons > .black {
+  background-color: transparent;
+  color: white;
+}
+
+.btn:disabled {
+  background-color: lightblue;
+  cursor: not-allowed;
+}
